@@ -24,6 +24,7 @@
     in
     {
       inherit packages;
+      package = import ./.;
     };
 }
 
